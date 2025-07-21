@@ -1,6 +1,6 @@
 ﻿//AUTOR: KAROLINA NAPIERACZ 20.07.2025
 //main.cpp
-//stara wersja
+
 #include <SFML/Graphics.hpp>
 #include <vector>
 #include <cmath>
@@ -12,7 +12,7 @@
 const int toolbarHeight = 80; //wysokosc toolbaru
 const int margin = 10; //margines
 bool save_drawing = false; //bool na zapisywanie rysunku
-sf::RenderWindow window(sf::VideoMode(800, 600), "OpenGL", sf::Style::Default);
+sf::RenderWindow window(sf::VideoMode(800, 600), "Paint++", sf::Style::Default);
 
 bool canDrawAt(const sf::Vector2i& pos) { //obszar gdzie można rysować
     int windowWidth = window.getSize().x;
